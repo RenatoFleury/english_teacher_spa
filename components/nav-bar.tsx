@@ -36,36 +36,36 @@ export function NavBar() {
         <div className="hidden md:flex items-center gap-8">
           <a
             onClick={(e) => scrollToSection(e, "nosso-metodo")}
-            className="text-neutral-700 hover:text-rose-500 transition-colors"
+            className="text-neutral-700 hover:text-rose-500 transition-colors cursor-pointer"
           >
             Nosso Método
           </a>
           <a
             onClick={(e) => scrollToSection(e, "cursos")}
-            className="text-neutral-700 hover:text-rose-500 transition-colors"
+            className="text-neutral-700 hover:text-rose-500 transition-colors cursor-pointer"
           >
             Cursos
           </a>
           <a
             onClick={(e) => scrollToSection(e, "depoimentos")}
-            className="text-neutral-700 hover:text-rose-500 transition-colors"
+            className="text-neutral-700 hover:text-rose-500 transition-colors cursor-pointer"
           >
             Depoimentos
           </a>
           <a
             onClick={(e) => scrollToSection(e, "sobre")}
-            className="text-neutral-700 hover:text-rose-500 transition-colors"
+            className="text-neutral-700 hover:text-rose-500 transition-colors cursor-pointer"
           >
             Sobre
           </a>
           <a
             onClick={(e) => scrollToSection(e, "contato")}
-            className="text-neutral-700 hover:text-rose-500 transition-colors"
+            className="text-neutral-700 hover:text-rose-500 transition-colors cursor-pointer"
           >
             Contato
           </a>
           <Button 
-            className="bg-rose-500 hover:bg-rose-600 text-white rounded-full px-6"
+            className="bg-rose-500 hover:bg-rose-600 text-white rounded-full px-6 cursor-pointer"
             onClick={(e) => scrollToSection(e, "aula-experimental")}
           >
               Aula experimental</Button>
