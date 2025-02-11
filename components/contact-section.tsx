@@ -5,10 +5,10 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 export function ContactSection() {
   return (
     <section className="max-w-7xl mx-auto px-6 py-12">
-      <h2 className="text-4xl md:text-5xl font-bold text-center text-slate-700 mb-12">Fale com a gente</h2>
+      <h2 className="text-4xl md:text-5xl font-bold text-center text-blue mb-12">Fale com a gente</h2>
 
       <div className="grid md:grid-cols-2 gap-6">
-        <Card className="bg-rose-500 border-none flex flex-col">
+        <Card className="bg-red border-none flex flex-col">
           <CardHeader>
             <CardTitle className="text-2xl text-white">Contato</CardTitle>
           </CardHeader>
@@ -18,14 +18,19 @@ export function ContactSection() {
               <p className="text-white/90">Nos envie uma mensagem!</p>
             </div>
             <div className="grid grid-cols-2 gap-4">
-              <Button className="w-full bg-[#FDF6F0] hover:bg-[#F5E6D8] text-rose-500" size="lg">
-                <Mail className="w-5 h-5 mr-2" />
-                E-mail
-              </Button>
-              <Button className="w-full bg-[#FDF6F0] hover:bg-[#F5E6D8] text-rose-500" size="lg">
-                <MessageCircle className="w-5 h-5 mr-2" />
-                WhatsApp
-              </Button>
+              <a href="mailto:aulas@proframon.com" className="w-full">
+                <Button className="w-full bg-[#FDF6F0] hover:bg-[#F5E6D8] text-rose-500" size="lg">
+                  <Mail className="w-5 h-5 mr-2" />
+                  E-mail
+                </Button>
+              </a>
+              <a href="" target="_blank" rel="noopener noreferrer" className="w-full">
+                <Button className="w-full bg-[#FDF6F0] hover:bg-[#F5E6D8] text-rose-500" size="lg">
+                  <MessageCircle className="w-5 h-5 mr-2" />
+                  WhatsApp
+                </Button>
+              </a>
+              
             </div>
           </CardContent>
         </Card>
@@ -39,14 +44,18 @@ export function ContactSection() {
               Acompanhe nosso conteúdo e aprenda um pouco de inglês de maneira descontraída.
             </p>
             <div className="grid grid-cols-2 gap-4">
-              <Button className="w-full bg-[#FDF6F0] hover:bg-[#F5E6D8] text-rose-500" size="lg">
-                <Instagram className="w-5 h-5 mr-2" />
-                Instagram
-              </Button>
-              <Button className="w-full bg-[#FDF6F0] hover:bg-[#F5E6D8] text-rose-500" size="lg">
-                <Facebook className="w-5 h-5 mr-2" />
-                Facebook
-              </Button>
+              <a href="https://www.instagram.com/prof.ramonalves/" target="_blank" rel="noopener noreferrer" className="w-full">
+                <Button className="w-full bg-[#FDF6F0] hover:bg-[#F5E6D8] text-rose-500" size="lg">
+                  <Instagram className="w-5 h-5 mr-2" />
+                  Instagram
+                </Button>
+              </a>
+              <a href="https://www.facebook.com/prof.ramonalves/" target="_blank" rel="noopener noreferrer" className="w-full">
+                <Button className="w-full bg-[#FDF6F0] hover:bg-[#F5E6D8] text-rose-500" size="lg">
+                  <Facebook className="w-5 h-5 mr-2" />
+                  Facebook
+                </Button>
+              </a>
             </div>
           </CardContent>
         </Card>
@@ -54,4 +63,3 @@ export function ContactSection() {
     </section>
   )
 }
-
