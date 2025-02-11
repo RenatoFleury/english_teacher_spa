@@ -5,6 +5,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        red: "b10f25",
         rose: {
           500: "#B10F25",
           600: "#C71878",

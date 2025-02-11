@@ -21,7 +21,7 @@ export function CTASection() {
           </div>
           <div className="flex-1">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-n8B1FQwQJ19EwtNAgwz2vnK4ikaO6g.png"
+              src="ilustration_2-removebg-preview.png"
               alt="Student at desk with laptop"
               width={500}
               height={400}
